@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="combodias">
+
+        <item>Seleccione</item>
+
+       <item>lunes</item>
+        <item>martes</item>
+        <item>miercoles</item>
+        <item>jueves</item>
+        <item>viernes</item>
+
+    </string-array>
+
+    <string-array name="combotipapel">
+
+        <item>Seleccione</item>
+
+        <item>hoja de block</item>
+        <item>papel lija </item>
+        <item>papel charol</item>
+        <item>papel burbuja</item>
+
+    </string-array>
+
+    <string-array name="sonido">
+
+        <item>Seleccione</item>
+
+        <item>piedra</item>
+        <item> agua </item>
+
+
+    </string-array>
+    <string-array name="tipoimagenes">
+
+        <item>Seleccione</item>
+
+        <item>imagen6</item>
+        <item> imagen7 </item>
+
+
+    </string-array>
+
+    <string-array name="tipojuegos">
+
+        <item>Seleccione</item>
+
+        <item>futbol</item>
+        <item> baloncesto </item>
+        <item>voleibol</item>
+        <item>avion</item>
+        <item>lleva</item>
+        <item>trompo</item>
+
+
+
+    </string-array>
+
+</resources>

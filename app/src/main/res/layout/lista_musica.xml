@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagenMusica"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/imagen_disco" />
+
+    <TextView
+        android:id="@+id/nombreMusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Cancion"
+        android:textColor="@color/colorPrimary"
+        android:layout_toRightOf="@+id/imagenMusica"
+        android:layout_toEndOf="@+id/imagenMusica"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/cantante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cantante"
+        android:layout_below="@id/nombreMusica"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_toRightOf="@+id/imagenMusica"
+        android:layout_toEndOf="@+id/imagenMusica"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/botonPlay"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boton_play"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@id/botonStop"/>
+
+    <ImageView
+        android:id="@+id/botonStop"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boton_detener"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"/>
+
+
+
+</RelativeLayout>

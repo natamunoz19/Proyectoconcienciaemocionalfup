@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haimer.proyectoconcienciaemocionalfup.Actividad_3.Actividad3">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="275dp"
+                    android:layout_height="309dp"
+                    android:layout_marginBottom="84dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.504"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+                    <RadioButton
+                        android:id="@+id/r2"
+                        android:layout_width="268dp"
+                        android:layout_height="47dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/enojado"
+                        android:translationX="1dp" />
+
+                    <RadioButton
+                        android:id="@+id/r1"
+                        android:layout_width="268dp"
+                        android:layout_height="47dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/gustar"
+                        android:translationX="1dp" />
+
+                    <RadioButton
+                        android:id="@+id/r4"
+                        android:layout_width="268dp"
+                        android:layout_height="47dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/triste1"
+                        android:translationX="1dp" />
+
+
+                    <RadioButton
+                        android:id="@+id/r3"
+                        android:layout_width="268dp"
+                        android:layout_height="47dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/risa"
+                        android:translationX="1dp" />
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnsiguientenueva"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginTop="9dp"
+                    android:text="siguiente"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.519"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <RelativeLayout
+                    android:layout_width="368dp"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.57">
+
+                    <SeekBar
+                        android:id="@+id/barra"
+                        android:layout_width="229dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="34dp"
+                        android:background="@android:color/background_light" />
+
+                    <Button
+                        android:id="@+id/pause"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="18dp"
+                        android:text="II" />
+
+                    <Button
+                        android:id="@+id/atras"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignTop="@+id/pause"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginStart="35dp"
+                        android:text="AT" />
+
+                    <Button
+                        android:id="@+id/adelante"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/pause"
+                        android:layout_marginEnd="29dp"
+                        android:layout_marginRight="29dp"
+                        android:text="AD" />
+
+
+                </RelativeLayout>
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

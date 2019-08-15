@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.haimer.proyectoconcienciaemocionalfup.Actividad_2.Seleccionarimagen">
+
+    <RelativeLayout
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+
+
+                <ImageView
+                    android:id="@+id/imagenalegria"
+                    android:layout_width="125dp"
+                    android:layout_height="101dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/imagentocar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.104"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.433"
+                    app:srcCompat="@drawable/alegria_opt" />
+
+                <ImageView
+                    android:id="@+id/imagentocar"
+                    android:layout_width="119dp"
+                    android:layout_height="92dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.584"
+                    app:layout_constraintStart_toEndOf="@+id/imagenalegria"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    app:layout_constraintVertical_bias="0.511"
+                    app:srcCompat="?attr/actionModeBackground" />
+
+                <ImageView
+                    android:id="@+id/tristeimagen"
+                    android:layout_width="121dp"
+                    android:layout_height="110dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="56dp"
+                    app:layout_constraintBottom_toTopOf="@+id/imagenira"
+                    app:layout_constraintEnd_toStartOf="@+id/imagentocar"
+                    app:layout_constraintHorizontal_bias="0.202"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imagenalegria"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/triste" />
+
+                <ImageView
+                    android:id="@+id/imagenira"
+                    android:layout_width="132dp"
+                    android:layout_height="121dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="45dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.069"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tristeimagen"
+                    app:srcCompat="@drawable/ira" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

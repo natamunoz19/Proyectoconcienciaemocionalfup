@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividad_9.Iniciar9"
+    android:orientation="vertical">
+
+
+
+
+
+                <view
+                    class="com.example.haimer.proyectoconcienciaemocionalfup.Actividad_9.Lienzo"
+                    id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_weight="5"
+                    android:layout_height="0dp"
+                    tools:layout_editor_absoluteX="152dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Elige una Emocion:"
+                    android:textSize="30sp"
+                    />
+
+                <RadioGroup
+                    android:id="@+id/elecccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioGroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Feliz"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioGroup2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Triste"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioGroup3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Enojado"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioGroup4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Sorprendido"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioGroup5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Somnoliento"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioGroup6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Pensativo"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioGroup7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Aburrido"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioGroup8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Asustado"
+                        android:textSize="25sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioGroup9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Apenado"
+                        android:textSize="25sp" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Guardar"/>
+</LinearLayout>

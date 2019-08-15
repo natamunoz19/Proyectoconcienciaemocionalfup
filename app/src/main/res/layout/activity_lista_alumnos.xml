@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haimer.proyectoconcienciaemocionalfup.Actividad_1.lista_alumnos">
+
+    <TextView
+        android:id="@+id/pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Como te siente el alumno con respecto a la musica?"
+        android:textSize="25sp"/>
+
+    <RadioGroup
+        android:id="@+id/preguntas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pregunta">
+
+        <RadioButton
+            android:id="@+id/op1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feliz"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/op2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pregunta"
+            android:text="Triste"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/op3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enojado"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/op4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sorprendido"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/op5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Somnoliento"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/op6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pensativo"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/op7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aburrido"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/op8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asustado"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/op9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apenado"
+            android:textSize="25sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preguntas"
+        android:background="@color/colorAccent"
+        android:text="guardar"/>
+
+
+</RelativeLayout>

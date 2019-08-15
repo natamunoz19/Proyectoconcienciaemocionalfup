@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.haimer.proyectoconcienciaemocionalfup.Principalestudiantes">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/btnactividad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center"
+            android:text="actividad 1"
+            />
+        <Button
+            android:id="@+id/btnactividad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="actividad 2"
+            />
+
+        <Button
+            android:id="@+id/btn_actividad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 3"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnactividad4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 4"
+            />
+
+        <Button
+            android:id="@+id/btnactividad5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 5"
+            />
+
+
+        <Button
+            android:id="@+id/btnactividad6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 6"
+            />
+
+        <Button
+            android:id="@+id/btnactividad7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 7"
+            />
+
+        <Button
+            android:id="@+id/btnactividad8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 8"
+            />
+
+        <Button
+            android:id="@+id/btnactividad9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 9"
+            />
+
+
+        <Button
+            android:id="@+id/btnactividad10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 10"
+            />
+
+        <Button
+            android:id="@+id/btnactividad11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 11"
+            />
+
+
+        <Button
+            android:id="@+id/btnactividad12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 12"
+            />
+        <Button
+            android:id="@+id/btnactividad13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 13"
+            />
+        <Button
+            android:id="@+id/btnactividad14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 14"
+            />
+        <Button
+            android:id="@+id/btnactividad15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ACTIVIDAD 15"
+            />
+
+
+    </LinearLayout>
+
+
+   </ScrollView>
+
+
+
+</LinearLayout>

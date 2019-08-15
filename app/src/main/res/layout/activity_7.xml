@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.haimer.proyectoconcienciaemocionalfup.Actividad_7.Activity_7">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_width="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="158dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:background="#ffd149"
+                    android:text="ELIGE EL JUEGO" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp">
+
+                <Button
+                    android:id="@+id/futbol"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/redondo"
+                    android:text="futbol" />
+
+                <Button
+                    android:id="@+id/baloncesto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/redondo"
+                    android:text="baloncesto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp">
+
+                <Button
+                    android:id="@+id/voleibol"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/redondo"
+                    android:text="voleibol" />
+
+                <Button
+                    android:id="@+id/avion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/redondo"
+                    android:text="avion" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp">
+
+                <Button
+                    android:id="@+id/lleva"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/redondo"
+                    android:text="lleva" />
+
+                <Button
+                    android:id="@+id/trompo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/redondo"
+                    android:text="trompo" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

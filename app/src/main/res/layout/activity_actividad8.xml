@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_actividad8" tools:context="com.example.haimer.proyectoconcienciaemocionalfup.Actividad_8.Actividad8">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guardar"
+            android:id="@+id/guardar" />
+
+
+
+
+    </LinearLayout>
+
+
+    <view
+        class="com.example.haimer.proyectoconcienciaemocionalfup.Actividad_8.Lienzo"
+        id="@+id/lienzo"
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:layout_height="0dp"
+        android:background="#FFFFFFFF"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            android:id="@+id/colornegro"
+            android:tag="#FF000000"
+            android:background="#FF000000"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            android:id="@+id/colorblanco"
+            android:tag="#FFEB3B"
+            android:background="#FFEB3B"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            android:id="@+id/colorazul"
+            android:tag="#FF0000FF"
+            android:background="#FF0000FF"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            android:id="@+id/colorrojo"
+            android:tag="#FFFF0000"
+            android:background="#FFFF0000"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            android:id="@+id/colorverde"
+            android:tag="#FF00FF00"
+            android:background="#FF00FF00"/>
+    </LinearLayout>
+
+</LinearLayout>
